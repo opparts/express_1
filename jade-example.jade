@@ -1,0 +1,11 @@
+.header
+    h1= title
+    p
+.body
+        p= body
+.footer
+div= By
+    a( href="http://sina.com/#{author.wechat}" )= author.name
+    ul
+        each tag, index in tags
+            li= tag

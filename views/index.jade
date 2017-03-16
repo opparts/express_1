@@ -1,3 +1,28 @@
-h1 hello
-h2 Welcome to the node.js ------
+h1  hello
+h2  Welcome to my NodeJS learning site
 
+// 这就是html的注释
+//- 不显示的注释
+
+div 学习nodejs=
+    h3  试衣间里面
+    p   东西
+div
+    footer &copy; hanapost.com
+    p
+
+div
+    b 开始输出数组的内容
+- var language = ['中文', '英文','法文']
+div
+    each value, index in language
+        p= index+'.'+value
+
+
+div
+    b 开始输出对象的内容
+    | 不处理，直接就是用通过| 来输出原始内容
+- var language2 = {'java':1, 'c++':2,'php':3}
+div
+    each va, key in language2
+        p=key+"："+va

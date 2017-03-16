@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/opparts/express_1",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "express": "^4.15.2",
     "jade": "^1.11.0",
     "mongoskin": "^2.1.0",
+    "mysql": "^2.13.0",
     "stylus": "^0.54.5"
   }
 }
